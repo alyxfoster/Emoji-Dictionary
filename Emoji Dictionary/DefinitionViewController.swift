@@ -18,6 +18,23 @@ class DefinitionViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         emojiLabel.text = emoji
+        if emoji == "😎"{
+            emojiDefinition.text = "Sunglasses guy"
+        } else if emoji == "💩" {
+            emojiDefinition.text = "Smiling poop"
+        } else if emoji == "😨" {
+            emojiDefinition.text = "Afraid"
+        } else if emoji == "😂" {
+            emojiDefinition.text = "Crying from laughter"
+        } else if emoji == "😅" {
+            emojiDefinition.text = "Nervous"
+        } else if emoji == "💊" {
+            emojiDefinition.text = "Pills"
+        } else if emoji == "🍑" {
+            emojiDefinition.text = "Peach"
+        } else {
+            emojiDefinition.text = "NO EMOJI"
+        }
     }
     
 
