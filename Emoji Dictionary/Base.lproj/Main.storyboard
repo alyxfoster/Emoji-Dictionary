@@ -62,18 +62,36 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category: Smiley" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="npL-xg-2ib">
+                                <rect key="frame" x="142" y="458" width="130" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Created: 2018" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9tX-b7-5gL">
+                                <rect key="frame" x="152.5" y="499" width="109" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="9tX-b7-5gL" firstAttribute="top" secondItem="npL-xg-2ib" secondAttribute="bottom" constant="20" id="9Fi-YV-nyq"/>
+                            <constraint firstItem="npL-xg-2ib" firstAttribute="top" secondItem="T9p-Eu-1Ke" secondAttribute="bottom" constant="20" id="CwQ-rT-ZPb"/>
                             <constraint firstItem="O57-fm-Zln" firstAttribute="top" secondItem="ILZ-Sy-rZl" secondAttribute="top" constant="40" id="Eg7-dK-zzO"/>
+                            <constraint firstItem="npL-xg-2ib" firstAttribute="centerX" secondItem="XuR-o3-HcO" secondAttribute="centerX" id="NTO-yq-OX9"/>
                             <constraint firstItem="T9p-Eu-1Ke" firstAttribute="top" secondItem="O57-fm-Zln" secondAttribute="bottom" constant="50" id="b9R-p5-Hth"/>
+                            <constraint firstItem="9tX-b7-5gL" firstAttribute="centerX" secondItem="XuR-o3-HcO" secondAttribute="centerX" id="bTl-ek-jw6"/>
                             <constraint firstItem="T9p-Eu-1Ke" firstAttribute="centerX" secondItem="XuR-o3-HcO" secondAttribute="centerX" id="cgB-PA-RjE"/>
                             <constraint firstItem="O57-fm-Zln" firstAttribute="centerX" secondItem="XuR-o3-HcO" secondAttribute="centerX" id="izq-aE-cXh"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ILZ-Sy-rZl"/>
                     </view>
                     <connections>
-                        <outlet property="emojiDefinition" destination="T9p-Eu-1Ke" id="6bt-a6-BBx"/>
+                        <outlet property="categoryLabel" destination="npL-xg-2ib" id="Yqu-Ug-2wZ"/>
+                        <outlet property="creationLabel" destination="9tX-b7-5gL" id="gap-6u-aUj"/>
+                        <outlet property="definitionLabel" destination="T9p-Eu-1Ke" id="LIe-Iq-yem"/>
                         <outlet property="emojiLabel" destination="O57-fm-Zln" id="108-i7-RWO"/>
                     </connections>
                 </viewController>

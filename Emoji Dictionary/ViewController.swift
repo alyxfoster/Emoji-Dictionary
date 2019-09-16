@@ -45,6 +45,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         defVC.emoji = sender as! String
     }
 
-
+    func makeEmojiArray() -> [EmojiData] {
+        
+    }
 }
 

@@ -13,6 +13,7 @@
 		3C24F37C232C161400B7AD74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C24F37B232C161400B7AD74 /* Assets.xcassets */; };
 		3C24F37F232C161400B7AD74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C24F37D232C161400B7AD74 /* LaunchScreen.storyboard */; };
 		3C24F387232C3BAA00B7AD74 /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C24F386232C3BAA00B7AD74 /* DefinitionViewController.swift */; };
+		3C24F389232F499F00B7AD74 /* EmojiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C24F388232F499F00B7AD74 /* EmojiData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3C24F37E232C161400B7AD74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C24F380232C161400B7AD74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C24F386232C3BAA00B7AD74 /* DefinitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
+		3C24F388232F499F00B7AD74 /* EmojiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				3C24F374232C160F00B7AD74 /* AppDelegate.swift */,
 				3C24F376232C160F00B7AD74 /* ViewController.swift */,
 				3C24F378232C160F00B7AD74 /* Main.storyboard */,
+				3C24F388232F499F00B7AD74 /* EmojiData.swift */,
 				3C24F386232C3BAA00B7AD74 /* DefinitionViewController.swift */,
 				3C24F37B232C161400B7AD74 /* Assets.xcassets */,
 				3C24F37D232C161400B7AD74 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C24F389232F499F00B7AD74 /* EmojiData.swift in Sources */,
 				3C24F377232C160F00B7AD74 /* ViewController.swift in Sources */,
 				3C24F387232C3BAA00B7AD74 /* DefinitionViewController.swift in Sources */,
 				3C24F375232C160F00B7AD74 /* AppDelegate.swift in Sources */,

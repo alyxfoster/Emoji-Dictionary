@@ -10,8 +10,11 @@ import UIKit
 
 class DefinitionViewController: UIViewController {
 
+    @IBOutlet weak var creationLabel: UILabel!
+    @IBOutlet weak var categoryLabel: UILabel!
     @IBOutlet weak var emojiLabel: UILabel!
-    @IBOutlet weak var emojiDefinition: UILabel!
+    @IBOutlet weak var definitionLabel: UILabel!
+    
     
     var emoji = "NO EMOJI"
     
@@ -19,21 +22,21 @@ class DefinitionViewController: UIViewController {
         super.viewDidLoad()
         emojiLabel.text = emoji
         if emoji == "😎"{
-            emojiDefinition.text = "Sunglasses guy"
+            definitionLabel.text = "Sunglasses guy"
         } else if emoji == "💩" {
-            emojiDefinition.text = "Smiling poop"
+            definitionLabel.text = "Smiling poop"
         } else if emoji == "😨" {
-            emojiDefinition.text = "Afraid"
+            definitionLabel.text = "Afraid"
         } else if emoji == "😂" {
-            emojiDefinition.text = "Crying from laughter"
+            definitionLabel.text = "Crying from laughter"
         } else if emoji == "😅" {
-            emojiDefinition.text = "Nervous"
+            definitionLabel.text = "Nervous"
         } else if emoji == "💊" {
-            emojiDefinition.text = "Pills"
+            definitionLabel.text = "Pills"
         } else if emoji == "🍑" {
-            emojiDefinition.text = "Peach"
+            definitionLabel.text = "Peach"
         } else {
-            emojiDefinition.text = "NO EMOJI"
+            definitionLabel.text = "NO EMOJI"
         }
     }
     
